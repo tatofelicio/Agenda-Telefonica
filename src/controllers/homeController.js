@@ -1,4 +1,4 @@
-const contatoModel = require('../models/contatoModel.js');
+const contatoModel = require('../models/ContatoModel.js');
 
 exports.index = async (req, res) => {
     const userId = req.session.user._id; //obtendo o id do usuário logado da sessão

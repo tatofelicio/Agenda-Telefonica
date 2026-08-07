@@ -1,4 +1,4 @@
-const ContatoModel = require('../models/contatoModel.js');
+const ContatoModel = require('../models/ContatoModel.js');
 
 exports.index = (req, res) => {
     res.render('contato', { contato: {} }); //vai renderizar esse template

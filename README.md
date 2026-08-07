@@ -17,3 +17,5 @@ Este projeto foi construído como parte do meu aprendizado prático em desenvolv
 *   **Banco de Dados:** MongoDB (com Mongoose)
 *   **Front-end:** EJS (Template Engine), HTML5, CSS3, Bootstrap 5.3
 *   **Segurança:** Helmet (Configuração de CSP) e Express Session
+
+  ![Preview aplicação](public/assets/img/exemplo.png)

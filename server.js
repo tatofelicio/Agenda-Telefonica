@@ -56,7 +56,7 @@ app.use(express.urlencoded(
 app.use(express.static(path.resolve(__dirname, 'public')));
 
 const sessionOptions = session({
-    secret: 'aula15',
+    secret: process.env.SECRET,
     store: MongoStore.create({mongoUrl: process.env.CONNECTIONSTRING}),
     resave: false,
     saveUninitialized: false,
